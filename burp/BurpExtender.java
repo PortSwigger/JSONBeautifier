@@ -218,7 +218,7 @@ public class BurpExtender implements IBurpExtender, IMessageEditorTabFactory, IT
                     return currentMessage;
                 }
             }
-            return null;
+            return currentMessage;
         }
 
         @Override
